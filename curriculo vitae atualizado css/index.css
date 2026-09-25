@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+
+.cabeçalho {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #2e4057;
+    margin-bottom: 20px;
+}
+
+.cabeçalho img {
+    border-radius: 50%;
+    border: 2px solid #2e4057;
+    width: 100px;
+    height: 100px;
+}
+
+.cabeçalho h1 {
+    color: #2e4057;
+    margin-bottom: 5px;
+}
+
+.cabeçalho p {
+    color: #666666;
+    margin-top: 0;
+}
+
+
+
+.contato h1,
+.habilidades h1,
+.sobre.mim h1,
+.Educação h1 {
+    color: #2e4057;
+    font-size: 20px;
+    border-bottom: 2px solid #2e4057;
+    padding-bottom: 5px;
+}
+
+
+
+.contato {
+    margin-bottom: 25px;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contato li img {
+    margin-right: 8px;
+}
+
+.contato a {
+    color: #2e4057;
+}
+
+
+.habilidades {
+    margin-bottom: 25px;
+}
+
+.habilidades h3 {
+    color: #2e4057;
+}
+
+.habilidades ul {
+    margin-bottom: 15px;
+}
+
+
+
+.sobre.mim {
+    margin-bottom: 25px;
+}
+
+
+main section > div {
+    margin-bottom: 25px;
+}
+
+main section > div h1 {
+    color: #2e4057;
+    font-size: 20px;
+    border-bottom: 2px solid #2e4057;
+    padding-bottom: 5px;
+}
+
+main section > div img {
+    width: 20px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+
+
+.Educação ul {
+    padding-left: 20px;
+}
+
+.Educação li {
+    margin-bottom: 10px;
+}
+
+
+.contato-modal {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contato-modal button {
+    background-color: #2e4057;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+dialog#modalContato {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+dialog#modalContato h2 {
+    color: #2e4057;
+}
+
+dialog#modalContato input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+dialog#modalContato button {
+    background-color: #2e4057;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.imgfome img {
+    width: 150px;
+    height: 150px;
+}
